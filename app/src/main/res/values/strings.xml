@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpinnerList</string>
+    <array name="games">
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Volleyball</item>
+        <item>Rugby</item>
+    </array>
+</resources>
