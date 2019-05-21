@@ -60,14 +60,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void resultsCLick(View v){
-        //countries.add("dsjkfhlsda");// advantange of adapter, dynamic adds
+        countries.add("Other");// advantange of adapter, dynamic adds
 
         Log.e("RESULTS", "GAME " + spinner.getSelectedItem().toString() + " | " + spinner.getSelectedItemPosition());//use index position to know if any selection was made
         Log.e("RESULTS", "COUNTRY " + spinner1.getSelectedItem().toString() + " | " + spinner1.getSelectedItemPosition());// or is it still stuck on position 0 ie "-----"
     }
 
     public void gotoList(View v){
-        //Intent i = new Intent(this, Main2Activity.class );
-        //startActivity(i);
+        Intent i = new Intent(this, Main2Activity.class );
+        startActivity(i);
     }
 }
